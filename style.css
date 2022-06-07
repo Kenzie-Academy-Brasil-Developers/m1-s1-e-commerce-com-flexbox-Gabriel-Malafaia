@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #F3F3F3;
+}
+
+header {
+    width: 100%;
+    border-bottom: 2px solid white;
+    box-shadow: inset 0 0 1em rgb(184, 184, 184);
+    padding: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho {
+    /* Display flexível (quebra de linha) */
+    display: flex;
+    /* Alinhamento horizontal */
+    justify-content: center;
+    /* Alinhamento vertical */
+    align-items: center;
+    padding: 15px;
+}
+
+.cabecalho ul li {
+    list-style: none;
+}
+
+.cabecalho ul li a {
+    text-decoration: none;
+    margin-left: 50px;
+    color: #585E65;
+}
+
+.button-promo {
+    background-color: #4C6EF5;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.button-promo a {
+    background-color: #4C6EF5;
+    color: white;
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.produtos {
+    width: 24%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.produtos img {
+    width: 230px;
+    height: 200px;
+    align-self: center;
+}
+
+.produtos p {
+    margin: 25px 0 0 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.produtos span {
+    margin: 20px 0 20px 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.produtos button {
+    font-size: 16px;
+    background-color: #4C6EF5;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    width: 95%;
+    margin: auto;
+
+}
+
+.produtos button:hover {
+    background-color: #4466ee;
+}
+.produtos button:focus {
+    border: solid 1px black;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
